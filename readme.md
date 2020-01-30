@@ -30,4 +30,4 @@ A REST API built with FastAPI to manage todos.
       - `/all/delete` Delete all todos
       - `/:id/delete` Delete todo by ID
 
-- Full API documentation is avaiable at `http://127.0.0.1:8000/docs` for SwaggerUI and `http://127.0.0.1:8000/redoc` for ReDoc.
+- Full API documentation is available at `http://127.0.0.1:8000/docs` for SwaggerUI and `http://127.0.0.1:8000/redoc` for ReDoc.
