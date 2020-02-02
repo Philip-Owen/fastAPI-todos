@@ -4,12 +4,16 @@ A REST API built with FastAPI to manage todos.
 
 ## How to run
 
-- Have Python 3 installed (This project was build with 3.7.3)
 - Clone this repo & navigate to directory
-- Install dependencies:
-  - `pip install requirements.txt`
-- Start the server:
-  - `uvicorn main:app`
+- 2 Options:
+  - With Docker:
+    - `docker build -t <imageName> .`
+    - `docker run -p <yourPort>:8000 <imageName>`
+  - Locally with Python 3:
+    - Install dependencies:
+      - `pip install requirements.txt`
+    - Start the server:
+      - `uvicorn main:app`
 
 ## How to use
 
